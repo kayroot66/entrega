@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box; /* Ajustar el box model para manejar padding y border */
+}
+
+body {
+    background: linear-gradient(to top, transparent, rgb(0, 14, 14)), url('img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 80%; /* Cambiado de max-width a width y aumentado */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    padding: 50px;
+    color: #fff;
+  }
+  .contenedor header{
+    overflow: hidden;
+  }
+  .contenedor header h1{
+    float: left;
+  }
+  .contenedor header nav{
+    float: left;
+  }
+  .contenedor header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .contenedor header nav ul li{
+    margin: 0 30px;
+  }
+  .contenedor header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 33px;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 20px;
+  }
+  .contenedor header nav ul li a{
+    background-color: black;
+    color: #fff;
+  }
+  .contenedor header .busqueda{
+    float: right;
+  }
+  .contenedor header .busqueda input{
+    display: inline-block;
+    width: 200px;
+    border: none;
+    background-color: rgba(0,0,0,.4);
+    padding:7px;
+    outline: none;
+    color: #fff;
+    border-right: 3px;
+    transition: .5px;
+  }
+  .contenedor .contenido .left{
+    width: 50%;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .contenedor .contenido .left h2{
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .contenedor .contenido .left p{
+    margin-bottom: 60px;
+    font-size: 10px;
+  }
